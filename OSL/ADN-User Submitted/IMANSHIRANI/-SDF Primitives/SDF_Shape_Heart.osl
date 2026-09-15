@@ -1,3 +1,7 @@
+// Copyright 2025 IMAN SHIRANI
+// Licensed under the Apache 2.0 License
+// https://github.com/ADN-DevTech/3dsMax-OSL-Shaders/blob/master/LICENSE.txt
+
 // SDF_Shape_Heart.osl by IMAN SHIRANI
 // 2025-11-25
 shader SDF_Shape_Heart
