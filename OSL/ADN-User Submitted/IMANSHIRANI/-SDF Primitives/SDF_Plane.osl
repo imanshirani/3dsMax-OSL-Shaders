@@ -1,0 +1,27 @@
+// SDF_Plane.osl by IMAN SHIRANI
+// 2025-09-11
+
+
+shader SDF_Plane
+[[
+    string logo     = "SDF.png"
+]]
+
+(
+    point Position = P,
+    
+   
+    vector Normal = vector(0, 1, 0) [[ string label = "Plane Normal" ]],
+    
+    
+    float Height = 0.0 [[ string label = "Offset / Height" ]],
+    
+    output float SDF_Out = 0.0
+)
+{
+   
+    vector n = normalize(Normal);
+    
+    
+    SDF_Out = dot(Position, n) + Height;
+}
