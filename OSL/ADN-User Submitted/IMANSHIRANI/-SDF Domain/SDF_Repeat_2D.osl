@@ -8,6 +8,7 @@
 
 shader SDF_Repeat_2D
 [[
+        string category = "SDF\\Domain",
     string logo     = "SDF.png"
 ]]
 (

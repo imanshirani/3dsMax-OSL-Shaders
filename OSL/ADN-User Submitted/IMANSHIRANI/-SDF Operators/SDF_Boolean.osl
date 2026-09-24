@@ -9,6 +9,7 @@
 
 shader SDF_Boolean
 [[
+        string category = "SDF\\Operators",
     string logo     = "SDF.png"
 ]]
 

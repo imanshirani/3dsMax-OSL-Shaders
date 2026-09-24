@@ -9,6 +9,7 @@
 
 shader SDF_Repeat_Radial_Advanced
 [[
+        string category = "SDF\\Domain",
     string logo     = "SDF.png"
 ]]
 (

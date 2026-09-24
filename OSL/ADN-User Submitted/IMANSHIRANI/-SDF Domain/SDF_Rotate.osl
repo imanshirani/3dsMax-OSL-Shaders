@@ -28,6 +28,7 @@ void rotate_z(output point p, float angle) {
 
 shader SDF_Rotate
 [[
+        string category = "SDF\\Domain",
     string logo     = "SDF.png"
 ]]
 (

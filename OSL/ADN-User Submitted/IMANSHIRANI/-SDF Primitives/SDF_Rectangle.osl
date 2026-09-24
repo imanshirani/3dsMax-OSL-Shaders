@@ -9,6 +9,7 @@
 
 shader SDF_Rectangle
 [[
+        string category = "SDF\\Primitives",
     string logo     = "SDF.png"
 ]]
 (

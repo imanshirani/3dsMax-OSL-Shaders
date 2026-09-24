@@ -9,6 +9,7 @@
 
 shader SDF_Transform
 [[
+        string category = "SDF\\Domain",
     string logo     = "SDF.png"
 ]]
 (

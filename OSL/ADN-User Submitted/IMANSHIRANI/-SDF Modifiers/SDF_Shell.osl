@@ -10,6 +10,7 @@
 
 shader SDF_Shell
 [[
+        string category = "SDF\\Modifiers",
     string logo     = "SDF.png"
 ]]
 (

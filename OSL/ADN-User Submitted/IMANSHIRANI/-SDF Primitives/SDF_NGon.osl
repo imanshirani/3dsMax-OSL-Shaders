@@ -10,6 +10,7 @@
 
 shader SDF_NGon
 [[
+        string category = "SDF\\Primitives",
     string logo     = "SDF.png"
 ]]
 (

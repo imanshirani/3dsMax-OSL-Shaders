@@ -8,6 +8,7 @@
 shader SDF_Capsule
 
 [[
+        string category = "SDF\\Primitives",
     string logo     = "SDF.png"
 ]]
 

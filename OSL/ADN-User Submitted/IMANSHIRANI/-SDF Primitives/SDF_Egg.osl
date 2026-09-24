@@ -15,6 +15,7 @@ float smin(float a, float b, float k) {
 
 shader SDF_Egg
 [[
+        string category = "SDF\\Primitives",
     string logo     = "SDF.png"
 ]]
 
