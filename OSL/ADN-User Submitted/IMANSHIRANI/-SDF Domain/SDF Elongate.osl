@@ -23,7 +23,7 @@ shader SDF_Elongate
 )
 {
     
-    vector p = vector(InputPoint[0], InputPoint[1], InputPoint[2]);
+    vector p = vector(InputPoint);
     
     
     vector q = p - vector(
