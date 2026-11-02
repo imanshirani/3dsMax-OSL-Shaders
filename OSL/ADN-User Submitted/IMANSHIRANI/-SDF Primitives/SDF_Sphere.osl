@@ -3,6 +3,7 @@
 // https://github.com/ADN-DevTech/3dsMax-OSL-Shaders/blob/master/LICENSE.txt
 
 
+
 // SDF Sphere Shader
 // SDF_Sphere.osl by IMAN SHIRANI
 // 2025-09-11
@@ -16,13 +17,13 @@ shader SDF_Sphere
 ]]
 (
     
-    point Position = P,
+    point Position_In = P [[ string label = "Position In", string help = "Sampling coordinates; defaults to surface position P. Connect Domain Position_Out here." ]],
     float Radius = 1.0,
 
     
-    output float SDF_Out = 0.0
+    output float SDF_Out = 0.0 [[ string label = "SDF Out", string help = "Signed scalar field: negative inside, positive outside." ]]
 )
 {
     
-    SDF_Out = distance(Position, point(0, 0, 0)) - Radius;
+    SDF_Out = distance(Position_In, point(0, 0, 0)) - Radius;
 }

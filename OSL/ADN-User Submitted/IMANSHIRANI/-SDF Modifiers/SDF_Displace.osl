@@ -3,6 +3,7 @@
 // https://github.com/ADN-DevTech/3dsMax-OSL-Shaders/blob/master/LICENSE.txt
 
 
+
 // SDF_Displace.osl by IMAN SHIRANI
 // 2025-09-11
 
@@ -14,7 +15,7 @@ shader SDF_Displace
 ]]
 (
     
-    float SDF_In = 0.0,
+    float SDF_In = 0.0 [[ string label = "SDF In", string help = "Signed scalar field from a shape or SDF operator." ]],
     
     
     float Noise_In = 0.0,
@@ -22,7 +23,7 @@ shader SDF_Displace
     
     float Amount = 0.1,
 
-    output float SDF_Out = 0.0
+    output float SDF_Out = 0.0 [[ string label = "SDF Out", string help = "Signed scalar field: negative inside, positive outside." ]]
 )
 {
     
